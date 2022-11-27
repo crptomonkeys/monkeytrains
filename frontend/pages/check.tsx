@@ -113,7 +113,7 @@ export default function PDash() {
     }
   }
   let eligible = <LightCard icon={<CasinoIcon/>} label={"eligible for next raffle?"} value={"No!"} />;
-  if (runs.data.length > 0){
+  if (runs.data.length > 0 && cd === "not on CD"){
     const cur = new Date();
     const cut = DateTime.fromJSDate(cur).minus(60*60*1000).toJSDate();
     const lig = new Date(Date.parse(runs.data[0].block_time+"Z"));
