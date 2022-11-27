@@ -1,0 +1,453 @@
+[2022-11-26 16:35:46,353: WARNING/ForkPoolWorker-15] db_retrieve took 25.044220949999982
+[2022-11-26 16:37:40,454: WARNING/ForkPoolWorker-15] db_retrieve took 22.790816799000027
+[2022-11-26 16:39:29,353: WARNING/ForkPoolWorker-15] 'float' object is not subscriptable
+[2022-11-26 16:44:41,989: WARNING/ForkPoolWorker-15] db_retrieve took 83.4736302230001
+[2022-11-26 16:47:52,643: WARNING/ForkPoolWorker-15] 1669477672.643355
+[2022-11-26 16:49:21,174: WARNING/ForkPoolWorker-15] db_retrieve took 109.41649828999994
+[2022-11-26 16:49:38,720: WARNING/ForkPoolWorker-16] 1669477778.720428
+[2022-11-26 16:52:40,180: WARNING/ForkPoolWorker-15] db_retrieve took 73.58596622100004
+[2022-11-26 16:57:43,456: WARNING/ForkPoolWorker-15] db_retrieve took 76.21250613699999
+[2022-11-26 17:00:39,613: WARNING/ForkPoolWorker-15] 1669478439
+[2022-11-26 17:02:09,327: WARNING/ForkPoolWorker-15] db_retrieve took 103.812542571
+[2022-11-26 17:02:37,581: WARNING/ForkPoolWorker-16] 1669478557
+[2022-11-26 17:06:23,380: WARNING/ForkPoolWorker-15] 2022-11-26T16:06:23.380
+[2022-11-26 17:06:35,940: WARNING/ForkPoolWorker-15] db_retrieve took 37.08886218500015
+[2022-11-26 17:08:06,356: WARNING/ForkPoolWorker-15] 2022-11-26T16:08:06.356
+[2022-11-26 17:08:15,896: WARNING/ForkPoolWorker-15] db_retrieve took 21.705319775000135
+[2022-11-26 17:10:06,661: WARNING/ForkPoolWorker-15] 2022-11-26T16:10:06.661
+[2022-11-26 17:10:17,085: WARNING/ForkPoolWorker-15] db_retrieve took 22.96017142499977
+[2022-11-26 17:12:07,313: WARNING/ForkPoolWorker-15] 2022-11-26T16:12:07.313
+[2022-11-26 17:12:17,869: WARNING/ForkPoolWorker-15] db_retrieve took 23.12415933000011
+[2022-11-26 17:14:11,017: WARNING/ForkPoolWorker-15] 2022-11-26T16:14:11.017
+[2022-11-26 17:14:22,331: WARNING/ForkPoolWorker-15] db_retrieve took 27.558467113000006
+[2022-11-26 17:16:09,597: WARNING/ForkPoolWorker-15] 2022-11-26T16:16:09.596
+[2022-11-26 17:16:20,912: WARNING/ForkPoolWorker-15] db_retrieve took 26.34001848900016
+[2022-11-26 17:18:17,537: WARNING/ForkPoolWorker-15] 2022-11-26T16:18:17.537
+[2022-11-26 17:18:33,500: WARNING/ForkPoolWorker-15] db_retrieve took 38.250494118999995
+[2022-11-26 17:20:09,525: WARNING/ForkPoolWorker-15] 2022-11-26T16:20:09.525
+[2022-11-26 17:20:19,276: WARNING/ForkPoolWorker-15] db_retrieve took 24.81418222399998
+[2022-11-26 17:22:07,319: WARNING/ForkPoolWorker-15] 2022-11-26T16:22:07.319
+[2022-11-26 17:22:17,835: WARNING/ForkPoolWorker-15] db_retrieve took 23.635337174000142
+[2022-11-26 17:24:07,085: WARNING/ForkPoolWorker-15] 2022-11-26T16:24:07.085
+[2022-11-26 17:24:16,863: WARNING/ForkPoolWorker-15] db_retrieve took 22.262419719999798
+[2022-11-26 17:26:10,278: WARNING/ForkPoolWorker-15] 2022-11-26T16:26:10.278
+[2022-11-26 17:26:22,310: WARNING/ForkPoolWorker-15] db_retrieve took 27.58033940999985
+[2022-11-26 17:28:06,510: WARNING/ForkPoolWorker-15] 2022-11-26T16:28:06.510
+[2022-11-26 17:28:17,101: WARNING/ForkPoolWorker-15] db_retrieve took 22.64116704900016
+[2022-11-26 17:30:07,162: WARNING/ForkPoolWorker-15] 2022-11-26T16:30:07.162
+[2022-11-26 17:30:20,970: WARNING/ForkPoolWorker-15] db_retrieve took 26.842581449000136
+[2022-11-26 17:32:07,534: WARNING/ForkPoolWorker-15] 2022-11-26T16:32:07.534
+[2022-11-26 17:32:17,371: WARNING/ForkPoolWorker-15] db_retrieve took 22.168269696000152
+[2022-11-26 17:33:01,103: WARNING/ForkPoolWorker-15] ['abgba.wam']
+[2022-11-26 17:33:07,149: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 17:33:27,174: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 17:34:06,757: WARNING/ForkPoolWorker-16] 2022-11-26T16:34:06.757
+[2022-11-26 17:34:07,172: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 17:34:17,145: WARNING/ForkPoolWorker-16] db_retrieve took 23.380420371000127
+[2022-11-26 17:35:27,171: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 17:36:09,129: WARNING/ForkPoolWorker-16] 2022-11-26T16:36:09.129
+[2022-11-26 17:36:18,903: WARNING/ForkPoolWorker-16] db_retrieve took 22.88736655699995
+[2022-11-26 17:38:07,146: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 17:38:08,356: WARNING/ForkPoolWorker-16] 2022-11-26T16:38:08.356
+[2022-11-26 17:38:18,490: WARNING/ForkPoolWorker-16] db_retrieve took 22.524940947999767
+[2022-11-26 17:40:08,088: WARNING/ForkPoolWorker-16] 2022-11-26T16:40:08.088
+[2022-11-26 17:40:18,340: WARNING/ForkPoolWorker-16] db_retrieve took 22.70339902500018
+[2022-11-26 17:42:19,586: WARNING/ForkPoolWorker-16] 2022-11-26T16:42:19.586
+[2022-11-26 17:42:35,746: WARNING/ForkPoolWorker-16] db_retrieve took 38.31603844399979
+[2022-11-26 17:43:26,937: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 17:44:13,554: WARNING/ForkPoolWorker-16] 2022-11-26T16:44:13.554
+[2022-11-26 17:44:24,226: WARNING/ForkPoolWorker-16] db_retrieve took 26.760297132999767
+[2022-11-26 17:46:13,261: WARNING/ForkPoolWorker-16] 2022-11-26T16:46:13.261
+[2022-11-26 17:46:25,206: WARNING/ForkPoolWorker-16] db_retrieve took 28.950969596000505
+[2022-11-26 17:48:07,128: WARNING/ForkPoolWorker-16] 2022-11-26T16:48:07.128
+[2022-11-26 17:48:21,825: WARNING/ForkPoolWorker-16] db_retrieve took 27.458876298999712
+[2022-11-26 17:50:15,650: WARNING/ForkPoolWorker-16] 2022-11-26T16:50:15.650
+[2022-11-26 17:50:26,868: WARNING/ForkPoolWorker-16] db_retrieve took 28.50778523900044
+[2022-11-26 17:52:12,038: WARNING/ForkPoolWorker-16] 2022-11-26T16:52:12.038
+[2022-11-26 17:52:22,926: WARNING/ForkPoolWorker-16] db_retrieve took 27.018143940999835
+[2022-11-26 17:54:06,555: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 17:54:08,065: WARNING/ForkPoolWorker-16] 2022-11-26T16:54:08.065
+[2022-11-26 17:54:17,665: WARNING/ForkPoolWorker-16] db_retrieve took 22.454546199000106
+[2022-11-26 17:56:07,510: WARNING/ForkPoolWorker-16] 2022-11-26T16:56:07.510
+[2022-11-26 17:56:17,885: WARNING/ForkPoolWorker-16] db_retrieve took 22.628828224000245
+[2022-11-26 17:58:12,183: WARNING/ForkPoolWorker-16] 2022-11-26T16:58:12.183
+[2022-11-26 17:58:23,949: WARNING/ForkPoolWorker-16] db_retrieve took 27.40095851999922
+[2022-11-26 18:00:14,087: WARNING/ForkPoolWorker-16] 2022-11-26T17:00:14.087
+[2022-11-26 18:00:24,068: WARNING/ForkPoolWorker-16] db_retrieve took 27.999666972999876
+[2022-11-26 18:02:11,442: WARNING/ForkPoolWorker-16] 2022-11-26T17:02:11.442
+[2022-11-26 18:02:24,700: WARNING/ForkPoolWorker-16] db_retrieve took 30.725573362999967
+[2022-11-26 18:04:16,223: WARNING/ForkPoolWorker-16] 2022-11-26T17:04:16.223
+[2022-11-26 18:04:30,773: WARNING/ForkPoolWorker-16] db_retrieve took 34.08959120000054
+[2022-11-26 18:06:08,980: WARNING/ForkPoolWorker-16] 2022-11-26T17:06:08.980
+[2022-11-26 18:06:20,123: WARNING/ForkPoolWorker-16] db_retrieve took 24.301076247999845
+[2022-11-26 18:08:08,008: WARNING/ForkPoolWorker-16] 2022-11-26T17:08:08.008
+[2022-11-26 18:08:20,243: WARNING/ForkPoolWorker-16] db_retrieve took 24.940614060999906
+[2022-11-26 18:10:06,895: WARNING/ForkPoolWorker-16] 2022-11-26T17:10:06.895
+[2022-11-26 18:10:19,283: WARNING/ForkPoolWorker-16] db_retrieve took 24.784793336999428
+[2022-11-26 18:12:11,899: WARNING/ForkPoolWorker-16] 2022-11-26T17:12:11.899
+[2022-11-26 18:12:21,811: WARNING/ForkPoolWorker-16] db_retrieve took 23.664088839000215
+[2022-11-26 18:14:17,461: WARNING/ForkPoolWorker-16] 2022-11-26T17:14:17.461
+[2022-11-26 18:14:30,599: WARNING/ForkPoolWorker-16] db_retrieve took 33.91872845099988
+[2022-11-26 18:15:25,753: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 18:16:25,505: WARNING/ForkPoolWorker-16] 2022-11-26T17:16:25.504
+[2022-11-26 18:16:36,761: WARNING/ForkPoolWorker-16] db_retrieve took 35.90073518899953
+[2022-11-26 18:18:08,973: WARNING/ForkPoolWorker-16] 2022-11-26T17:18:08.973
+[2022-11-26 18:18:19,665: WARNING/ForkPoolWorker-16] db_retrieve took 23.298169486000006
+[2022-11-26 18:20:07,684: WARNING/ForkPoolWorker-16] 2022-11-26T17:20:07.683
+[2022-11-26 18:20:17,493: WARNING/ForkPoolWorker-16] db_retrieve took 21.86445044299944
+[2022-11-26 18:22:06,835: WARNING/ForkPoolWorker-16] 2022-11-26T17:22:06.835
+[2022-11-26 18:22:16,542: WARNING/ForkPoolWorker-16] db_retrieve took 21.86416043600002
+[2022-11-26 18:24:07,808: WARNING/ForkPoolWorker-16] 2022-11-26T17:24:07.808
+[2022-11-26 18:24:17,347: WARNING/ForkPoolWorker-16] db_retrieve took 21.83306108099987
+[2022-11-26 18:26:08,414: WARNING/ForkPoolWorker-16] 2022-11-26T17:26:08.414
+[2022-11-26 18:26:17,803: WARNING/ForkPoolWorker-16] db_retrieve took 21.65894533500068
+[2022-11-26 18:28:13,457: WARNING/ForkPoolWorker-16] 2022-11-26T17:28:13.457
+[2022-11-26 18:28:24,211: WARNING/ForkPoolWorker-16] db_retrieve took 27.338420949000465
+[2022-11-26 18:30:07,718: WARNING/ForkPoolWorker-16] 2022-11-26T17:30:07.717
+[2022-11-26 18:30:18,125: WARNING/ForkPoolWorker-16] db_retrieve took 22.75883789799991
+[2022-11-26 18:32:08,232: WARNING/ForkPoolWorker-16] 2022-11-26T17:32:08.232
+[2022-11-26 18:32:18,827: WARNING/ForkPoolWorker-16] db_retrieve took 22.481265780000285
+[2022-11-26 18:33:00,858: WARNING/ForkPoolWorker-16] ['emviq.wam']
+[2022-11-26 18:33:07,099: WARNING/ForkPoolWorker-16] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 18:33:27,130: WARNING/ForkPoolWorker-16] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 18:34:07,132: WARNING/ForkPoolWorker-16] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 18:34:16,340: WARNING/ForkPoolWorker-1] 2022-11-26T17:34:16.339
+[2022-11-26 18:34:29,733: WARNING/ForkPoolWorker-1] db_retrieve took 32.15108018899991
+[2022-11-26 18:35:27,114: WARNING/ForkPoolWorker-16] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 18:36:07,441: WARNING/ForkPoolWorker-1] 2022-11-26T17:36:07.441
+[2022-11-26 18:36:17,056: WARNING/ForkPoolWorker-1] db_retrieve took 22.011658997000268
+[2022-11-26 18:38:07,090: WARNING/ForkPoolWorker-16] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 18:38:14,631: WARNING/ForkPoolWorker-1] 2022-11-26T17:38:14.631
+[2022-11-26 18:38:23,991: WARNING/ForkPoolWorker-1] db_retrieve took 26.22358665200045
+[2022-11-26 18:40:11,737: WARNING/ForkPoolWorker-1] 2022-11-26T17:40:11.737
+[2022-11-26 18:40:25,647: WARNING/ForkPoolWorker-1] db_retrieve took 30.235291281999707
+[2022-11-26 18:42:07,077: WARNING/ForkPoolWorker-1] 2022-11-26T17:42:07.077
+[2022-11-26 18:42:19,965: WARNING/ForkPoolWorker-1] db_retrieve took 24.873066056000425
+[2022-11-26 18:43:26,968: WARNING/ForkPoolWorker-16] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 18:44:07,529: WARNING/ForkPoolWorker-1] 2022-11-26T17:44:07.529
+[2022-11-26 18:44:16,896: WARNING/ForkPoolWorker-1] db_retrieve took 22.2632399740005
+[2022-11-26 18:46:09,618: WARNING/ForkPoolWorker-1] 2022-11-26T17:46:09.618
+[2022-11-26 18:46:19,479: WARNING/ForkPoolWorker-1] db_retrieve took 22.58763398800056
+[2022-11-26 18:48:08,690: WARNING/ForkPoolWorker-1] 2022-11-26T17:48:08.690
+[2022-11-26 18:48:18,724: WARNING/ForkPoolWorker-1] db_retrieve took 23.67448534599953
+[2022-11-26 18:50:09,321: WARNING/ForkPoolWorker-1] 2022-11-26T17:50:09.321
+[2022-11-26 18:50:21,180: WARNING/ForkPoolWorker-1] db_retrieve took 25.486024887000895
+[2022-11-26 18:52:08,389: WARNING/ForkPoolWorker-1] 2022-11-26T17:52:08.389
+[2022-11-26 18:52:18,511: WARNING/ForkPoolWorker-1] db_retrieve took 22.858266426999762
+[2022-11-26 18:54:06,611: WARNING/ForkPoolWorker-16] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 18:54:08,226: WARNING/ForkPoolWorker-1] 2022-11-26T17:54:08.226
+[2022-11-26 18:54:20,156: WARNING/ForkPoolWorker-1] db_retrieve took 24.83915349900053
+[2022-11-26 18:56:09,000: WARNING/ForkPoolWorker-1] 2022-11-26T17:56:09.000
+[2022-11-26 18:56:19,861: WARNING/ForkPoolWorker-1] db_retrieve took 24.22161768300066
+[2022-11-26 18:58:03,952: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 18:58:09,793: WARNING/ForkPoolWorker-1] 2022-11-26T17:58:09.793
+[2022-11-26 18:58:22,359: WARNING/ForkPoolWorker-1] db_retrieve took 26.18602308499976
+[2022-11-26 19:00:07,735: WARNING/ForkPoolWorker-1] 2022-11-26T18:00:07.735
+[2022-11-26 19:00:17,114: WARNING/ForkPoolWorker-1] db_retrieve took 21.80454898300013
+[2022-11-26 19:02:13,426: WARNING/ForkPoolWorker-1] 2022-11-26T18:02:13.426
+[2022-11-26 19:02:25,106: WARNING/ForkPoolWorker-1] db_retrieve took 28.826944129001276
+[2022-11-26 19:04:12,473: WARNING/ForkPoolWorker-1] 2022-11-26T18:04:12.473
+[2022-11-26 19:04:22,667: WARNING/ForkPoolWorker-1] db_retrieve took 26.310428776001572
+[2022-11-26 19:06:09,268: WARNING/ForkPoolWorker-1] 2022-11-26T18:06:09.268
+[2022-11-26 19:06:18,891: WARNING/ForkPoolWorker-1] db_retrieve took 21.76241261799987
+[2022-11-26 19:08:07,944: WARNING/ForkPoolWorker-1] 2022-11-26T18:08:07.943
+[2022-11-26 19:08:17,322: WARNING/ForkPoolWorker-1] db_retrieve took 21.60821282500001
+[2022-11-26 19:10:17,857: WARNING/ForkPoolWorker-1] 2022-11-26T18:10:17.857
+[2022-11-26 19:10:30,276: WARNING/ForkPoolWorker-1] db_retrieve took 31.68442196399883
+[2022-11-26 19:12:07,935: WARNING/ForkPoolWorker-1] 2022-11-26T18:12:07.935
+[2022-11-26 19:12:17,398: WARNING/ForkPoolWorker-1] db_retrieve took 21.65578591600024
+[2022-11-26 19:14:13,697: WARNING/ForkPoolWorker-1] 2022-11-26T18:14:13.697
+[2022-11-26 19:14:23,972: WARNING/ForkPoolWorker-1] db_retrieve took 27.479719483000736
+[2022-11-26 19:15:25,757: WARNING/ForkPoolWorker-16] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 19:16:17,952: WARNING/ForkPoolWorker-1] 2022-11-26T18:16:17.952
+[2022-11-26 19:16:30,510: WARNING/ForkPoolWorker-1] db_retrieve took 32.93216061000021
+[2022-11-26 19:18:09,500: WARNING/ForkPoolWorker-1] 2022-11-26T18:18:09.500
+[2022-11-26 19:18:18,886: WARNING/ForkPoolWorker-1] db_retrieve took 22.11940441600018
+[2022-11-26 19:20:08,683: WARNING/ForkPoolWorker-1] 2022-11-26T18:20:08.683
+[2022-11-26 19:20:18,262: WARNING/ForkPoolWorker-1] db_retrieve took 22.065482046000398
+[2022-11-26 19:22:08,812: WARNING/ForkPoolWorker-1] 2022-11-26T18:22:08.812
+[2022-11-26 19:22:17,870: WARNING/ForkPoolWorker-1] db_retrieve took 21.446124763000626
+[2022-11-26 19:24:08,624: WARNING/ForkPoolWorker-1] 2022-11-26T18:24:08.624
+[2022-11-26 19:24:17,987: WARNING/ForkPoolWorker-1] db_retrieve took 21.658732711000994
+[2022-11-26 19:26:20,640: WARNING/ForkPoolWorker-1] 2022-11-26T18:26:20.640
+[2022-11-26 19:26:34,970: WARNING/ForkPoolWorker-1] db_retrieve took 36.994920537001235
+[2022-11-26 19:28:08,351: WARNING/ForkPoolWorker-1] 2022-11-26T18:28:08.351
+[2022-11-26 19:28:18,431: WARNING/ForkPoolWorker-1] db_retrieve took 22.89848124799937
+[2022-11-26 19:30:09,213: WARNING/ForkPoolWorker-1] 2022-11-26T18:30:09.213
+[2022-11-26 19:30:19,179: WARNING/ForkPoolWorker-1] db_retrieve took 22.80898775100104
+[2022-11-26 19:32:09,177: WARNING/ForkPoolWorker-1] 2022-11-26T18:32:09.177
+[2022-11-26 19:32:22,761: WARNING/ForkPoolWorker-1] db_retrieve took 26.561983491999854
+[2022-11-26 19:33:02,768: WARNING/ForkPoolWorker-1] ['gwows.wam']
+[2022-11-26 19:33:08,984: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 19:33:28,976: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 19:34:07,488: WARNING/ForkPoolWorker-17] 2022-11-26T18:34:07.488
+[2022-11-26 19:34:09,001: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 19:34:16,644: WARNING/ForkPoolWorker-17] db_retrieve took 21.345666304001497
+[2022-11-26 19:35:28,965: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 19:36:08,350: WARNING/ForkPoolWorker-17] 2022-11-26T18:36:08.350
+[2022-11-26 19:36:18,498: WARNING/ForkPoolWorker-17] db_retrieve took 23.051451786999678
+[2022-11-26 19:38:08,795: WARNING/ForkPoolWorker-17] 2022-11-26T18:38:08.795
+[2022-11-26 19:38:08,874: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 19:38:18,143: WARNING/ForkPoolWorker-17] db_retrieve took 21.51856937299999
+[2022-11-26 19:40:08,772: WARNING/ForkPoolWorker-17] 2022-11-26T18:40:08.772
+[2022-11-26 19:40:18,646: WARNING/ForkPoolWorker-17] db_retrieve took 23.50965017800081
+[2022-11-26 19:42:12,133: WARNING/ForkPoolWorker-17] 2022-11-26T18:42:12.133
+[2022-11-26 19:42:22,961: WARNING/ForkPoolWorker-17] db_retrieve took 27.629137275000176
+[2022-11-26 19:43:28,690: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 19:44:16,896: WARNING/ForkPoolWorker-17] 2022-11-26T18:44:16.896
+[2022-11-26 19:44:35,560: WARNING/ForkPoolWorker-17] db_retrieve took 40.41320385099971
+[2022-11-26 19:46:07,950: WARNING/ForkPoolWorker-17] 2022-11-26T18:46:07.950
+[2022-11-26 19:46:17,833: WARNING/ForkPoolWorker-17] db_retrieve took 22.09150594499988
+[2022-11-26 19:48:07,588: WARNING/ForkPoolWorker-17] 2022-11-26T18:48:07.588
+[2022-11-26 19:48:17,877: WARNING/ForkPoolWorker-17] db_retrieve took 22.465310461999252
+[2022-11-26 19:50:06,785: WARNING/ForkPoolWorker-17] 2022-11-26T18:50:06.785
+[2022-11-26 19:50:16,299: WARNING/ForkPoolWorker-17] db_retrieve took 21.777795027999673
+[2022-11-26 19:52:09,362: WARNING/ForkPoolWorker-17] 2022-11-26T18:52:09.362
+[2022-11-26 19:52:21,883: WARNING/ForkPoolWorker-17] db_retrieve took 26.66046422099862
+[2022-11-26 19:54:06,613: WARNING/ForkPoolWorker-17] 2022-11-26T18:54:06.613
+[2022-11-26 19:54:08,274: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 19:54:16,079: WARNING/ForkPoolWorker-17] db_retrieve took 21.758717396000065
+[2022-11-26 19:56:11,062: WARNING/ForkPoolWorker-17] 2022-11-26T18:56:11.062
+[2022-11-26 19:56:22,133: WARNING/ForkPoolWorker-17] db_retrieve took 27.18433644200013
+[2022-11-26 19:58:04,045: WARNING/ForkPoolWorker-16] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 19:58:07,457: WARNING/ForkPoolWorker-17] 2022-11-26T18:58:07.457
+[2022-11-26 19:58:20,928: WARNING/ForkPoolWorker-17] db_retrieve took 26.881636951000473
+[2022-11-26 20:00:08,392: WARNING/ForkPoolWorker-17] 2022-11-26T19:00:08.392
+[2022-11-26 20:00:17,704: WARNING/ForkPoolWorker-17] db_retrieve took 21.70914522900057
+[2022-11-26 20:02:08,456: WARNING/ForkPoolWorker-17] 2022-11-26T19:02:08.456
+[2022-11-26 20:02:19,188: WARNING/ForkPoolWorker-17] db_retrieve took 23.691924714999914
+[2022-11-26 20:04:06,475: WARNING/ForkPoolWorker-17] 2022-11-26T19:04:06.475
+[2022-11-26 20:04:16,560: WARNING/ForkPoolWorker-17] db_retrieve took 22.279850537999664
+[2022-11-26 20:06:08,290: WARNING/ForkPoolWorker-17] 2022-11-26T19:06:08.290
+[2022-11-26 20:06:17,601: WARNING/ForkPoolWorker-17] db_retrieve took 21.355847920000087
+[2022-11-26 20:08:12,047: WARNING/ForkPoolWorker-17] 2022-11-26T19:08:12.047
+[2022-11-26 20:08:22,754: WARNING/ForkPoolWorker-17] db_retrieve took 26.06286406399886
+[2022-11-26 20:10:07,381: WARNING/ForkPoolWorker-17] 2022-11-26T19:10:07.381
+[2022-11-26 20:10:16,170: WARNING/ForkPoolWorker-17] db_retrieve took 21.14944982400084
+[2022-11-26 20:12:09,433: WARNING/ForkPoolWorker-17] 2022-11-26T19:12:09.433
+[2022-11-26 20:12:18,979: WARNING/ForkPoolWorker-17] db_retrieve took 22.888471222999215
+[2022-11-26 20:14:08,067: WARNING/ForkPoolWorker-17] 2022-11-26T19:14:08.067
+[2022-11-26 20:14:17,202: WARNING/ForkPoolWorker-17] db_retrieve took 21.34741691199997
+[2022-11-26 20:15:27,446: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 20:16:08,808: WARNING/ForkPoolWorker-17] 2022-11-26T19:16:08.808
+[2022-11-26 20:16:19,399: WARNING/ForkPoolWorker-17] db_retrieve took 23.520697899999504
+[2022-11-26 20:18:09,436: WARNING/ForkPoolWorker-17] 2022-11-26T19:18:09.436
+[2022-11-26 20:18:24,139: WARNING/ForkPoolWorker-17] db_retrieve took 28.629606452999724
+[2022-11-26 20:20:08,153: WARNING/ForkPoolWorker-17] 2022-11-26T19:20:08.153
+[2022-11-26 20:20:17,693: WARNING/ForkPoolWorker-17] db_retrieve took 21.932732998000574
+[2022-11-26 20:22:09,227: WARNING/ForkPoolWorker-17] 2022-11-26T19:22:09.227
+[2022-11-26 20:22:18,377: WARNING/ForkPoolWorker-17] db_retrieve took 21.880349859999114
+[2022-11-26 20:23:20,394: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 20:24:12,348: WARNING/ForkPoolWorker-17] 2022-11-26T19:24:12.348
+[2022-11-26 20:24:29,484: WARNING/ForkPoolWorker-17] db_retrieve took 33.85192531699977
+[2022-11-26 20:26:08,035: WARNING/ForkPoolWorker-17] 2022-11-26T19:26:08.035
+[2022-11-26 20:26:18,194: WARNING/ForkPoolWorker-17] db_retrieve took 22.603690021000148
+[2022-11-26 20:28:08,185: WARNING/ForkPoolWorker-17] 2022-11-26T19:28:08.185
+[2022-11-26 20:28:17,335: WARNING/ForkPoolWorker-17] db_retrieve took 21.807553335000193
+[2022-11-26 20:30:06,929: WARNING/ForkPoolWorker-17] 2022-11-26T19:30:06.929
+[2022-11-26 20:30:16,094: WARNING/ForkPoolWorker-17] db_retrieve took 21.748489848001554
+[2022-11-26 20:32:07,073: WARNING/ForkPoolWorker-17] 2022-11-26T19:32:07.073
+[2022-11-26 20:32:15,895: WARNING/ForkPoolWorker-17] db_retrieve took 20.91400557599991
+[2022-11-26 20:33:00,185: WARNING/ForkPoolWorker-17] ['nutzzzyyy.gm']
+[2022-11-26 20:33:06,324: WARNING/ForkPoolWorker-17] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 20:33:26,330: WARNING/ForkPoolWorker-17] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 20:34:06,353: WARNING/ForkPoolWorker-17] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 20:34:10,030: WARNING/ForkPoolWorker-2] 2022-11-26T19:34:10.030
+[2022-11-26 20:34:21,033: WARNING/ForkPoolWorker-2] db_retrieve took 25.55289068300044
+[2022-11-26 20:35:26,372: WARNING/ForkPoolWorker-17] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 20:36:07,200: WARNING/ForkPoolWorker-2] 2022-11-26T19:36:07.200
+[2022-11-26 20:36:16,031: WARNING/ForkPoolWorker-2] db_retrieve took 20.79850441599956
+[2022-11-26 20:38:06,330: WARNING/ForkPoolWorker-17] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 20:38:07,598: WARNING/ForkPoolWorker-2] 2022-11-26T19:38:07.598
+[2022-11-26 20:38:16,451: WARNING/ForkPoolWorker-2] db_retrieve took 21.771497505000298
+[2022-11-26 20:40:14,074: WARNING/ForkPoolWorker-2] 2022-11-26T19:40:14.074
+[2022-11-26 20:40:27,099: WARNING/ForkPoolWorker-2] db_retrieve took 31.597084015998917
+[2022-11-26 20:42:08,689: WARNING/ForkPoolWorker-2] 2022-11-26T19:42:08.689
+[2022-11-26 20:42:19,047: WARNING/ForkPoolWorker-2] db_retrieve took 23.443428841999776
+[2022-11-26 20:43:26,172: WARNING/ForkPoolWorker-17] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 20:44:07,541: WARNING/ForkPoolWorker-2] 2022-11-26T19:44:07.541
+[2022-11-26 20:44:16,495: WARNING/ForkPoolWorker-2] db_retrieve took 21.45293391499945
+[2022-11-26 20:46:10,075: WARNING/ForkPoolWorker-2] 2022-11-26T19:46:10.075
+[2022-11-26 20:46:19,685: WARNING/ForkPoolWorker-2] db_retrieve took 21.869472630998644
+[2022-11-26 20:48:07,594: WARNING/ForkPoolWorker-2] 2022-11-26T19:48:07.594
+[2022-11-26 20:48:18,037: WARNING/ForkPoolWorker-2] db_retrieve took 22.681665461999728
+[2022-11-26 20:50:09,100: WARNING/ForkPoolWorker-2] 2022-11-26T19:50:09.100
+[2022-11-26 20:50:21,635: WARNING/ForkPoolWorker-2] db_retrieve took 25.753752105001695
+[2022-11-26 20:52:08,890: WARNING/ForkPoolWorker-2] 2022-11-26T19:52:08.890
+[2022-11-26 20:52:18,405: WARNING/ForkPoolWorker-2] db_retrieve took 21.89994251600001
+[2022-11-26 20:54:05,806: WARNING/ForkPoolWorker-17] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 20:54:08,572: WARNING/ForkPoolWorker-2] 2022-11-26T19:54:08.572
+[2022-11-26 20:54:19,517: WARNING/ForkPoolWorker-2] db_retrieve took 24.427589428998544
+[2022-11-26 20:56:07,810: WARNING/ForkPoolWorker-2] 2022-11-26T19:56:07.810
+[2022-11-26 20:56:17,379: WARNING/ForkPoolWorker-2] db_retrieve took 21.83573616099966
+[2022-11-26 20:58:05,635: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 20:58:11,104: WARNING/ForkPoolWorker-2] 2022-11-26T19:58:11.104
+[2022-11-26 20:58:23,721: WARNING/ForkPoolWorker-2] db_retrieve took 27.976831464000497
+[2022-11-26 21:00:10,394: WARNING/ForkPoolWorker-2] 2022-11-26T20:00:10.394
+[2022-11-26 21:00:23,286: WARNING/ForkPoolWorker-2] db_retrieve took 26.616125518001354
+[2022-11-26 21:02:12,135: WARNING/ForkPoolWorker-2] 2022-11-26T20:02:12.135
+[2022-11-26 21:02:25,323: WARNING/ForkPoolWorker-2] db_retrieve took 29.601848152999082
+[2022-11-26 21:04:08,769: WARNING/ForkPoolWorker-2] 2022-11-26T20:04:08.769
+[2022-11-26 21:04:20,598: WARNING/ForkPoolWorker-2] db_retrieve took 25.043375227998695
+[2022-11-26 21:06:10,941: WARNING/ForkPoolWorker-2] 2022-11-26T20:06:10.941
+[2022-11-26 21:06:21,630: WARNING/ForkPoolWorker-2] db_retrieve took 23.98966947000008
+[2022-11-26 21:08:08,905: WARNING/ForkPoolWorker-2] 2022-11-26T20:08:08.905
+[2022-11-26 21:08:22,803: WARNING/ForkPoolWorker-2] db_retrieve took 27.969336715999816
+[2022-11-26 21:10:08,386: WARNING/ForkPoolWorker-2] 2022-11-26T20:10:08.386
+[2022-11-26 21:10:20,146: WARNING/ForkPoolWorker-2] db_retrieve took 24.539811537000787
+[2022-11-26 21:12:07,893: WARNING/ForkPoolWorker-2] 2022-11-26T20:12:07.893
+[2022-11-26 21:12:17,461: WARNING/ForkPoolWorker-2] db_retrieve took 21.840587244001654
+[2022-11-26 21:14:06,956: WARNING/ForkPoolWorker-2] 2022-11-26T20:14:06.956
+[2022-11-26 21:14:16,303: WARNING/ForkPoolWorker-2] db_retrieve took 22.01971015500021
+[2022-11-26 21:15:24,966: WARNING/ForkPoolWorker-17] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 21:16:07,519: WARNING/ForkPoolWorker-2] 2022-11-26T20:16:07.519
+[2022-11-26 21:16:16,784: WARNING/ForkPoolWorker-2] db_retrieve took 21.35420106699894
+[2022-11-26 21:18:11,123: WARNING/ForkPoolWorker-2] 2022-11-26T20:18:11.123
+[2022-11-26 21:18:22,004: WARNING/ForkPoolWorker-2] db_retrieve took 26.406130294999457
+[2022-11-26 21:20:07,140: WARNING/ForkPoolWorker-2] 2022-11-26T20:20:07.140
+[2022-11-26 21:20:16,606: WARNING/ForkPoolWorker-2] db_retrieve took 21.828351260999625
+[2022-11-26 21:22:08,282: WARNING/ForkPoolWorker-2] 2022-11-26T20:22:08.282
+[2022-11-26 21:22:19,287: WARNING/ForkPoolWorker-2] db_retrieve took 24.451747167997382
+[2022-11-26 21:23:20,404: WARNING/ForkPoolWorker-16] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 21:24:14,858: WARNING/ForkPoolWorker-2] 2022-11-26T20:24:14.858
+[2022-11-26 21:24:25,952: WARNING/ForkPoolWorker-2] db_retrieve took 28.5634987049998
+[2022-11-26 21:26:09,648: WARNING/ForkPoolWorker-2] 2022-11-26T20:26:09.648
+[2022-11-26 21:26:23,026: WARNING/ForkPoolWorker-2] db_retrieve took 26.495513574998768
+[2022-11-26 21:28:06,769: WARNING/ForkPoolWorker-2] 2022-11-26T20:28:06.769
+[2022-11-26 21:28:16,762: WARNING/ForkPoolWorker-2] db_retrieve took 22.700782278003317
+[2022-11-26 21:30:15,420: WARNING/ForkPoolWorker-2] 2022-11-26T20:30:15.420
+[2022-11-26 21:30:27,110: WARNING/ForkPoolWorker-2] db_retrieve took 28.10626222100109
+[2022-11-26 21:32:07,303: WARNING/ForkPoolWorker-2] 2022-11-26T20:32:07.303
+[2022-11-26 21:32:16,767: WARNING/ForkPoolWorker-2] db_retrieve took 21.482203892999678
+[2022-11-26 21:33:00,641: WARNING/ForkPoolWorker-2] ['253qw.wam']
+[2022-11-26 21:33:06,775: WARNING/ForkPoolWorker-2] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 21:33:26,788: WARNING/ForkPoolWorker-2] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 21:34:06,809: WARNING/ForkPoolWorker-2] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 21:34:09,106: WARNING/ForkPoolWorker-18] 2022-11-26T20:34:09.106
+[2022-11-26 21:34:19,795: WARNING/ForkPoolWorker-18] db_retrieve took 23.014571040999726
+[2022-11-26 21:35:26,812: WARNING/ForkPoolWorker-2] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 21:36:09,296: WARNING/ForkPoolWorker-18] 2022-11-26T20:36:09.296
+[2022-11-26 21:36:22,946: WARNING/ForkPoolWorker-18] db_retrieve took 28.920538801001385
+[2022-11-26 21:38:06,766: WARNING/ForkPoolWorker-2] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 21:38:15,892: WARNING/ForkPoolWorker-18] 2022-11-26T20:38:15.892
+[2022-11-26 21:38:26,709: WARNING/ForkPoolWorker-18] db_retrieve took 29.675705672998447
+[2022-11-26 21:40:15,374: WARNING/ForkPoolWorker-18] 2022-11-26T20:40:15.374
+[2022-11-26 21:40:30,149: WARNING/ForkPoolWorker-18] db_retrieve took 33.64780314399832
+[2022-11-26 21:42:06,451: WARNING/ForkPoolWorker-18] 2022-11-26T20:42:06.451
+[2022-11-26 21:42:16,423: WARNING/ForkPoolWorker-18] db_retrieve took 22.242091914999037
+[2022-11-26 21:43:26,604: WARNING/ForkPoolWorker-2] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-26 21:44:06,217: WARNING/ForkPoolWorker-18] 2022-11-26T20:44:06.217
+[2022-11-26 21:44:20,005: WARNING/ForkPoolWorker-18] db_retrieve took 26.727581521998218
+[2022-11-26 21:46:07,827: WARNING/ForkPoolWorker-18] 2022-11-26T20:46:07.827
+[2022-11-26 21:46:16,988: WARNING/ForkPoolWorker-18] db_retrieve took 21.647689386998536
+[2022-11-26 21:48:07,794: WARNING/ForkPoolWorker-18] 2022-11-26T20:48:07.793
+[2022-11-26 21:48:17,106: WARNING/ForkPoolWorker-18] db_retrieve took 21.502473096999893
+[2022-11-26 21:50:07,551: WARNING/ForkPoolWorker-18] 2022-11-26T20:50:07.551
+[2022-11-26 21:50:17,012: WARNING/ForkPoolWorker-18] db_retrieve took 22.79242540099949
+[2022-11-27 11:20:34,963: WARNING/ForkPoolWorker-15] ['abgba.wam']
+[2022-11-27 11:20:41,145: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 11:21:01,151: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 11:21:06,962: WARNING/ForkPoolWorker-16] 2022-11-27T10:21:06.962
+[2022-11-27 11:21:18,016: WARNING/ForkPoolWorker-16] db_retrieve took 24.7409302219894
+[2022-11-27 11:21:41,173: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 11:23:01,074: WARNING/ForkPoolWorker-16] 2022-11-27T10:23:01.074
+[2022-11-27 11:23:01,174: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 11:23:10,744: WARNING/ForkPoolWorker-16] db_retrieve took 21.992011791007826
+[2022-11-27 11:25:02,346: WARNING/ForkPoolWorker-16] 2022-11-27T10:25:02.346
+[2022-11-27 11:25:12,303: WARNING/ForkPoolWorker-16] db_retrieve took 22.54973958300252
+[2022-11-27 11:25:41,121: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 11:27:06,556: WARNING/ForkPoolWorker-16] 2022-11-27T10:27:06.556
+[2022-11-27 11:27:18,359: WARNING/ForkPoolWorker-16] db_retrieve took 29.80450099200243
+[2022-11-27 11:29:04,482: WARNING/ForkPoolWorker-16] 2022-11-27T10:29:04.482
+[2022-11-27 11:29:15,066: WARNING/ForkPoolWorker-16] db_retrieve took 23.577197085993248
+[2022-11-27 11:31:00,886: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 11:31:02,812: WARNING/ForkPoolWorker-16] 2022-11-27T10:31:02.812
+[2022-11-27 11:31:16,309: WARNING/ForkPoolWorker-16] db_retrieve took 27.677894187989295
+[2022-11-27 11:33:09,828: WARNING/ForkPoolWorker-16] 2022-11-27T10:33:09.828
+[2022-11-27 11:33:21,518: WARNING/ForkPoolWorker-16] db_retrieve took 32.12959563299955
+[2022-11-27 11:35:00,586: WARNING/ForkPoolWorker-16] 2022-11-27T10:35:00.586
+[2022-11-27 11:35:09,881: WARNING/ForkPoolWorker-16] db_retrieve took 22.03830738500983
+[2022-11-27 11:37:00,695: WARNING/ForkPoolWorker-16] 2022-11-27T10:37:00.695
+[2022-11-27 11:37:10,308: WARNING/ForkPoolWorker-16] db_retrieve took 22.479158360001747
+[2022-11-27 11:39:02,697: WARNING/ForkPoolWorker-16] 2022-11-27T10:39:02.697
+[2022-11-27 11:39:11,960: WARNING/ForkPoolWorker-16] db_retrieve took 21.880941827999777
+[2022-11-27 11:41:01,303: WARNING/ForkPoolWorker-16] 2022-11-27T10:41:01.303
+[2022-11-27 11:41:10,576: WARNING/ForkPoolWorker-16] db_retrieve took 21.571192736009834
+[2022-11-27 11:41:40,537: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 11:43:01,505: WARNING/ForkPoolWorker-16] 2022-11-27T10:43:01.505
+[2022-11-27 11:43:10,982: WARNING/ForkPoolWorker-16] db_retrieve took 22.387592703991686
+[2022-11-27 11:45:02,262: WARNING/ForkPoolWorker-16] 2022-11-27T10:45:02.262
+[2022-11-27 11:45:15,297: WARNING/ForkPoolWorker-16] db_retrieve took 25.85472683700209
+[2022-11-27 11:47:01,742: WARNING/ForkPoolWorker-16] 2022-11-27T10:47:01.742
+[2022-11-27 11:47:11,084: WARNING/ForkPoolWorker-16] db_retrieve took 21.738078034002683
+[2022-11-27 11:49:03,398: WARNING/ForkPoolWorker-16] 2022-11-27T10:49:03.398
+[2022-11-27 11:49:13,161: WARNING/ForkPoolWorker-16] db_retrieve took 22.056110158009687
+[2022-11-27 11:51:01,783: WARNING/ForkPoolWorker-16] 2022-11-27T10:51:01.783
+[2022-11-27 11:51:12,884: WARNING/ForkPoolWorker-16] db_retrieve took 24.237425554005313
+[2022-11-27 11:53:01,587: WARNING/ForkPoolWorker-16] 2022-11-27T10:53:01.587
+[2022-11-27 11:53:10,745: WARNING/ForkPoolWorker-16] db_retrieve took 21.564261059000273
+[2022-11-27 11:55:00,574: WARNING/ForkPoolWorker-16] 2022-11-27T10:55:00.574
+[2022-11-27 11:55:10,728: WARNING/ForkPoolWorker-16] db_retrieve took 22.445319424004992
+[2022-11-27 11:57:02,081: WARNING/ForkPoolWorker-16] 2022-11-27T10:57:02.081
+[2022-11-27 11:57:12,590: WARNING/ForkPoolWorker-16] db_retrieve took 23.477110160994926
+[2022-11-27 11:59:03,235: WARNING/ForkPoolWorker-16] 2022-11-27T10:59:03.235
+[2022-11-27 11:59:13,964: WARNING/ForkPoolWorker-16] db_retrieve took 22.854408772007446
+[2022-11-27 12:01:11,034: WARNING/ForkPoolWorker-16] 2022-11-27T11:01:11.034
+[2022-11-27 12:01:23,813: WARNING/ForkPoolWorker-16] db_retrieve took 32.31450316400151
+[2022-11-27 12:02:59,683: WARNING/ForkPoolWorker-15] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 12:03:05,952: WARNING/ForkPoolWorker-16] 2022-11-27T11:03:05.952
+[2022-11-27 12:03:18,219: WARNING/ForkPoolWorker-16] db_retrieve took 26.592665851989295
+[2022-11-27 12:05:16,328: WARNING/ForkPoolWorker-16] 2022-11-27T11:05:16.328
+[2022-11-27 12:05:32,342: WARNING/ForkPoolWorker-16] db_retrieve took 40.50843252199411
+[2022-11-27 12:07:10,807: WARNING/ForkPoolWorker-16] 2022-11-27T11:07:10.807
+[2022-11-27 12:07:28,330: WARNING/ForkPoolWorker-16] db_retrieve took 37.008724562998395
+[2022-11-27 12:09:06,147: WARNING/ForkPoolWorker-16] 2022-11-27T11:09:06.147
+[2022-11-27 12:09:19,638: WARNING/ForkPoolWorker-16] db_retrieve took 26.025287873999332
+[2022-11-27 12:11:07,550: WARNING/ForkPoolWorker-16] 2022-11-27T11:11:07.550
+[2022-11-27 12:11:21,833: WARNING/ForkPoolWorker-16] db_retrieve took 28.014615217995015
+[2022-11-27 12:13:03,973: WARNING/ForkPoolWorker-16] 2022-11-27T11:13:03.973
+[2022-11-27 12:13:18,160: WARNING/ForkPoolWorker-16] db_retrieve took 26.439225464011542
+[2022-11-27 12:15:03,888: WARNING/ForkPoolWorker-16] 2022-11-27T11:15:03.888
+[2022-11-27 12:15:17,554: WARNING/ForkPoolWorker-16] db_retrieve took 26.182526485004928
+[2022-11-27 12:17:24,956: WARNING/ForkPoolWorker-16] 2022-11-27T11:17:24.956
+[2022-11-27 12:17:48,217: WARNING/ForkPoolWorker-16] db_retrieve took 51.831476494000526
+[2022-11-27 12:20:02,661: WARNING/ForkPoolWorker-16] 2022-11-27T11:20:02.661
+[2022-11-27 12:20:33,172: WARNING/ForkPoolWorker-16] db_retrieve took 92.33121079699777
+[2022-11-27 12:20:43,371: WARNING/ForkPoolWorker-1] ['pdmqw.wam']
+[2022-11-27 12:20:49,397: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 12:21:09,391: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 12:21:46,753: WARNING/ForkPoolWorker-17] 2022-11-27T11:21:46.753
+[2022-11-27 12:21:49,416: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 12:22:13,314: WARNING/ForkPoolWorker-17] db_retrieve took 73.37575126299635
+[2022-11-27 12:23:09,415: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 12:23:10,016: WARNING/ForkPoolWorker-16] 2022-11-27T11:23:10.016
+[2022-11-27 12:23:31,000: WARNING/ForkPoolWorker-16] db_retrieve took 39.96894196499488
+[2022-11-27 12:25:06,123: WARNING/ForkPoolWorker-16] 2022-11-27T11:25:06.123
+[2022-11-27 12:25:20,303: WARNING/ForkPoolWorker-16] db_retrieve took 29.33923678100109
+[2022-11-27 12:25:49,361: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 12:27:03,546: WARNING/ForkPoolWorker-16] 2022-11-27T11:27:03.546
+[2022-11-27 12:27:17,947: WARNING/ForkPoolWorker-16] db_retrieve took 26.97581954000634
+[2022-11-27 12:29:07,404: WARNING/ForkPoolWorker-16] 2022-11-27T11:29:07.404
+[2022-11-27 12:29:21,759: WARNING/ForkPoolWorker-16] db_retrieve took 27.50244507798925
+[2022-11-27 12:31:09,130: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 12:31:13,214: WARNING/ForkPoolWorker-16] 2022-11-27T11:31:13.214
+[2022-11-27 12:31:28,385: WARNING/ForkPoolWorker-16] db_retrieve took 36.99811550299637
+[2022-11-27 12:33:14,161: WARNING/ForkPoolWorker-16] 2022-11-27T11:33:14.161
+[2022-11-27 12:33:30,497: WARNING/ForkPoolWorker-16] db_retrieve took 37.537693032005336
+[2022-11-27 12:35:10,280: WARNING/ForkPoolWorker-16] 2022-11-27T11:35:10.280
+[2022-11-27 12:35:24,953: WARNING/ForkPoolWorker-16] db_retrieve took 32.413703152997186
+[2022-11-27 12:37:14,605: WARNING/ForkPoolWorker-16] 2022-11-27T11:37:14.605
+[2022-11-27 12:37:29,253: WARNING/ForkPoolWorker-16] db_retrieve took 36.24636573399766
+[2022-11-27 12:39:12,064: WARNING/ForkPoolWorker-16] 2022-11-27T11:39:12.064
+[2022-11-27 12:39:25,620: WARNING/ForkPoolWorker-16] db_retrieve took 29.875238945009187
+[2022-11-27 12:41:13,462: WARNING/ForkPoolWorker-16] 2022-11-27T11:41:13.462
+[2022-11-27 12:41:30,280: WARNING/ForkPoolWorker-16] db_retrieve took 38.850150850994396
+[2022-11-27 12:41:48,734: WARNING/ForkPoolWorker-1] [Errno 2] No such file or directory: '/usr/src/app/utils/cmcdrops4all_eosio.key'
+[2022-11-27 12:43:08,895: WARNING/ForkPoolWorker-16] 2022-11-27T11:43:08.895
+[2022-11-27 12:43:25,313: WARNING/ForkPoolWorker-16] db_retrieve took 34.60644658199453
+[2022-11-27 12:47:45,633: WARNING/ForkPoolWorker-15] 'data'
+[2022-11-27 12:49:42,812: WARNING/ForkPoolWorker-15] 'data'
+[2022-11-27 12:52:41,171: WARNING/ForkPoolWorker-15] 2022-11-27T11:52:41.171
+[2022-11-27 12:52:55,903: WARNING/ForkPoolWorker-15] db_retrieve took 28.628607534992625
+[2022-11-27 12:54:39,910: WARNING/ForkPoolWorker-15] 2022-11-27T11:54:39.910
+[2022-11-27 12:54:52,334: WARNING/ForkPoolWorker-15] db_retrieve took 25.844799225000315
