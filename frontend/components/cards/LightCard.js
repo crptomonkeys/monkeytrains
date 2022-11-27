@@ -3,7 +3,7 @@ import { useTheme, styled } from '@mui/material/styles';
 import { Avatar, Box, List, ListItem, ListItemAvatar, ListItemText, Typography } from '@mui/material';
 import MainCard from './MainCard';
 
-import GenericCard from './cards/GenericCard';
+import GenericCard from './GenericCard';
 import { red } from '@mui/material/colors';
 
 const CardWrapper = styled(MainCard)(({ theme }) => ({

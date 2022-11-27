@@ -106,7 +106,7 @@ const ResponsiveAppBar = ({ ThemeToggleButton }: Props) => {
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
             <Link href='/' sx={{  textDecoration: 'none'}}>
-           <Image src="/icon-192x192.png" alt="mining Logo" width={60} height={60} />
+           <Image src="/logo.png" alt="mining Logo" width={160} height={80} />
              </Link>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent:'center' }}>

@@ -53,7 +53,12 @@ export default function Home() {
               color="text.primary"
               gutterBottom
             >
+              <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
               <Image src="/head.png" alt="mining Logo" width={550} height={90} />
+              </Box>
+              <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+              <Image src="/head.png" alt="mining Logo" width={340} height={60} />
+              </Box>
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
               Welcome to monKeytrains! You can earn cryptomonKeys by playing Trains of Century and visit our stations ingame.
