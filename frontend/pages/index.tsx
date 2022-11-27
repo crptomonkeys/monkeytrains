@@ -18,7 +18,7 @@ import { Box, Stack, Button } from '@mui/material';
 
 export default function Home() {
   const { data:db } = useSWR(
-    ['http://127.0.0.1:8003/status_db'],
+    ['https://trains.api.cryptomonkeys.cc/status_db'],
     (url) => axios.get(url).then((res) => res.data),
     {refreshInterval:6000, }
   );

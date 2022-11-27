@@ -17,7 +17,7 @@ function getTypeNamed(type:string){
 }
 export default function DropsTable() {
   const { data: drops } = useSWR<DropsApiResponse, Error>(
-    ['https://mine.api.cmstats.net/drops', { params: { before: '', after: '' } }],
+    ['https://trains.api.cryptomonkeys.cc/drops', { params: { before: '', after: '' } }],
     (url, options) => axios.get(url, options).then((res) => res.data),
     {refreshInterval:60000, }
   );

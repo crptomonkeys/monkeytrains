@@ -23,7 +23,7 @@ export default function RunsTable() {
     {refreshInterval:1000, }
   );
   const { data:cmcs } = useSWR<CMCApiResponse, Error>(
-    ['https://mine.api.cmstats.net/cmc_list'],
+    ['https://trains.api.cryptomonkeys.cc/cmc_list'],
     (url) => axios.get(url).then((res) => res.data),
     {refreshInterval:600000, }
   );
