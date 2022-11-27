@@ -100,10 +100,8 @@ export default function Home() {
         <LightCard icon={<MovingIcon/>} label={"mnky runs last 24 hrs"} value={db.db_state.count_runs[1]} />
       </Grid>
       <Grid item xs={12} md={4}>
-        <DarkCard icon={<MovingIcon/>} label={"total runs last hr"} value={db.db_state.mine_count_60} />
+        <DarkCard icon={<MovingIcon/>} label={"total runs last 24 hrs"} value={db.db_state.count_runs[2]} />
       </Grid>
-      
-      
       
       
       

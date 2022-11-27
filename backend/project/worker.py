@@ -133,10 +133,11 @@ def retrieve_db_status(eligs):
     print(hr)
     count_60 = len(fetch_runs(hr))
     count_1440 = len(fetch_runs((datetime.utcnow()-timedelta(hours=24)).isoformat()[:-3]))
+    count_all_1440 = Trains().logrun(after=(datetime.utcnow()-timedelta(hours=24)).isoformat()[:-3])
 
     db_info={
         "trains_status": trains_status['data'],
-        "count_runs": [count_60,count_1440],
+        "count_runs": [count_60,count_1440, count_all_1440],
         "eligible": len(eligs),
         "last_elec": lastelec.issue_time if lastelec else "None",
         "mining_hist":[count_7d,count_30d,count_365d]

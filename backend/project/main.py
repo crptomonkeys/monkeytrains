@@ -63,11 +63,10 @@ async def get_drops(
             before:str=None,
             after:str=None,
             limit:int=None,
-            slots:bool=False,
             order:OrderChoose=OrderChoose.desc):
 
     start = time.time()
-    qry = list(retrieve_drops(before,after,limit,order.value,slots))
+    qry = list(retrieve_drops(before,after,limit,order.value))
     
     return {"query_time":time.time()-start,"count":len(qry),"data":qry}
 
