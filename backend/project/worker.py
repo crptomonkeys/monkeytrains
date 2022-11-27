@@ -133,7 +133,7 @@ def retrieve_db_status(eligs):
     print(hr)
     count_60 = len(fetch_runs(hr))
     count_1440 = len(fetch_runs((datetime.utcnow()-timedelta(hours=24)).isoformat()[:-3]))
-    count_all_1440 = Trains().logrun(after=(datetime.utcnow()-timedelta(hours=24)).isoformat()[:-3])
+    count_all_1440 = len(Trains().logrun(after=(datetime.utcnow()-timedelta(hours=24)).isoformat()[:-3]).json()["data"])
 
     db_info={
         "trains_status": trains_status['data'],

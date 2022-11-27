@@ -44,7 +44,7 @@ class Trains:
     
     def logrun(
         self,
-        arrive_station: str,
+        arrive_station: str = None,
         offset: int = 0,
         limit: int = 5000,
         simple: str = 'true',
