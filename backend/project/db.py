@@ -69,6 +69,7 @@ def retrieve_drops(before:str=None,after:str=None,limit:int=100,sort:str='asc'):
     with Session(engine) as session:
         qry = session.query(
                         Drop.issue_time,
+                        Drop.type,
                         Drop.winner,
                         Drop.trx_id,
                         Drop.state)
@@ -87,6 +88,7 @@ def retrieve_drops(before:str=None,after:str=None,limit:int=100,sort:str='asc'):
             qry = qry.limit(limit).distinct()
         else:
             qry = qry.limit(100).distinct()
+
         out=[
             {
                 "issue_time" : q["issue_time"],
