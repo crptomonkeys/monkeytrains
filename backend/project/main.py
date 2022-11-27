@@ -82,7 +82,7 @@ async def get_cached_cmc_wallet_list():
 async def retrieve_cd_raffle_from_redis():
 
     start = time.time()
-    resp = cachetool.get_cache("raffleCD")
+    resp = cachetool.get_cache("targetCD")
     
     return {"query_time":time.time()-start,"data":resp}
 
@@ -90,7 +90,7 @@ async def retrieve_cd_raffle_from_redis():
 async def retrieve_personal_info():
 
     start = time.time()
-    resp = cachetool.get_cache("raffleCD")
+    resp = cachetool.get_cache("targetCD")
     val = cachetool.get_cache("cmcs")
     db = cachetool.get_cache("db")
         
