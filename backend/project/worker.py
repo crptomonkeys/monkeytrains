@@ -90,7 +90,7 @@ def get_eligs_and_filter(eligs_cmc, after):
     for train in elig_trains:
         if train in eligs_cmc and train not in cooldowned.keys():
             if train in cooldowned.keys():
-                if (datetime.fromtimestamp(after)-timedelta(hours=config.raffle_cooldown)).isoformat()[:-3] > cooldowned[train]:
+                if (datetime.fromisoformat(after)-timedelta(hours=config.raffle_cooldown)).isoformat()[:-3] > cooldowned[train]:
                     final_elig.append(train)
             else:
                 final_elig.append(train)
