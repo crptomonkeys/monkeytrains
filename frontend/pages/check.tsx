@@ -106,7 +106,7 @@ export default function PDash() {
   const cdif = db.cds[railroader];
   if (cdif){
     const dat = new Date(Date.parse(cdif+"Z"));
-    const ndir = addMinutes(dat,2880);
+    const ndir = addMinutes(dat,4320);
     if (ndir.getTime() > date){
 
       cd = humanizeDuration(date-ndir.getTime(),{ round: true, units: ["d", "h", "m"] });
@@ -161,7 +161,7 @@ export default function PDash() {
         {con_card}
       </Grid>
        <Grid item xs={12} md={6}>
-          <DarkCard icon={<HistoryIcon/>} label={"Cooldown duration for targets"} value={cd} />
+          <DarkCard icon={<HistoryIcon/>} label={"Cooldown duration for raffle"} value={cd} />
       </Grid>
       
       <Grid item xs={12} md={3}>
