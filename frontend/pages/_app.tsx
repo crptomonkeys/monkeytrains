@@ -61,26 +61,26 @@ export default function MyApp(props: MyAppProps) {
       <Head>
         <meta name='viewport' content='initial-scale=1, width=device-width' />
         <title>
-        monKeymining
+        monKeytrains
     </title>
    
-    <meta name="description" content="monKeymining" />
+    <meta name="description" content="monKeytrains" />
     <meta name="keywords" content="NFT,WAX,cryptomonkeys,connect,Discord,Twitter,telegram"/>
     <meta name="author" content="Green"/>
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:url" content="https://aw.cryptomonkeys.cc/" />
-    <meta name="twitter:title" content="monKeymining" />
-    <meta name="twitter:description" content="Earn cryptomonKeys by playing Alienworlds!" />
-    <meta name="twitter:image" content="https://aw.cryptomonkeys.cc/logo.png"/>
+    <meta name="twitter:url" content="https://trains.cryptomonkeys.cc/" />
+    <meta name="twitter:title" content="monKeytrains" />
+    <meta name="twitter:description" content="Earn cryptomonKeys by playing Trains of Century!" />
+    <meta name="twitter:image" content="https://trains.cryptomonkeys.cc/logo.png"/>
     <meta name="twitter:site" content="@Crypt0monKeys" />
     
     <meta name="og:type" content="website" />
-    <meta name="og:url" content="https://aw.cryptomonkeys.cc/"/>
-    <meta name="og:title" content="monKeymining" />
-    <meta content="Earn cryptomonKeys by mining in Alienworlds. Experience the feeling of mining NFTs (again)!" property="og:description"/>
-    <meta content="aw.cryptomonkeys.cc" property="og:site_name"/>
-    <meta content='https://aw.cryptomonkeys.cc/logo.png' property='og:image'/>
+    <meta name="og:url" content="https://trains.cryptomonkeys.cc/"/>
+    <meta name="og:title" content="monKeytrains" />
+    <meta content="Earn cryptomonKeys by visiting monKeystations in Trains of Century." property="og:description"/>
+    <meta content="trains.cryptomonkeys.cc" property="og:site_name"/>
+    <meta content='https://trains.cryptomonkeys.cc/logo.png' property='og:image'/>
     <meta name="theme-color" content="#0006A7"/>
     <link rel="apple-touch-icon" sizes="180x180" href="icon-192x192.png"></link>
     
