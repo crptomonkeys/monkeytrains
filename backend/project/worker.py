@@ -48,7 +48,7 @@ def elect() -> str:
     else:
         return "Election for this hr already existst"
     
-    start = datetime.utcnow()
+    start = (datetime.utcnow()-timedelta(hours=1)).isoformat()[:-3]
     elected = draw(start)
     print(elected)
     update_elected(handle,elected)
