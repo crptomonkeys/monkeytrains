@@ -88,9 +88,9 @@ def get_eligs_and_filter(eligs_cmc, after):
     cooldowned = cachetool.get_cache("targetCD")
     final_elig = []
     for train in elig_trains:
-        if train in eligs_cmc and train not in cooldowned.keys():
+        if train in eligs_cmc:
             if train in cooldowned.keys():
-                if (datetime.fromisoformat(after)-timedelta(hours=config.raffle_cooldown)).isoformat()[:-3] > cooldowned[train]:
+                if (datetime.utcnow()-timedelta(hours=config.raffle_cooldown)).isoformat()[:-3] > cooldowned[train]:
                     final_elig.append(train)
             else:
                 final_elig.append(train)
