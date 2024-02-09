@@ -12,7 +12,7 @@ import requests, ast, config
 from sqlalchemy import update
 
 engine = create_engine(
-    'postgresql://postgres:postgres@db:5432/foo', convert_unicode=True,
+    'postgresql://postgres:postgres@db:5432/foo',
     pool_recycle=1800, pool_size=12)
 db_session = scoped_session(sessionmaker(
     autocommit=False, autoflush=False, bind=engine))
@@ -91,11 +91,11 @@ def retrieve_drops(before:str=None,after:str=None,limit:int=100,sort:str='asc'):
 
         out=[
             {
-                "issue_time" : q["issue_time"],
-                "type" : q["type"],
-                "winner" : [n.strip() for n in ast.literal_eval(q["winner"])] if q["winner"] != "" else [],
-                "trx_id" : q["trx_id"],
-                "state" : q["state"]
+                "issue_time" : q.issue_time,
+                "type" : q.type,
+                "winner" : [n.strip() for n in ast.literal_eval(q.winner)] if q.winner != "" else [],
+                "trx_id" : q.trx_id,
+                "state" : q.state
             }
             for q in qry
         ]
