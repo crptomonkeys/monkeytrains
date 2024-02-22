@@ -100,16 +100,3 @@ def retrieve_drops(before:str=None,after:str=None,limit:int=100,sort:str='asc'):
             for q in qry
         ]
         return out
-
-def get_cmc():
-    cmcs = requests.get(f"https://connect.cryptomonkeys.cc/accounts/api/v1/user_list/?code={config.cmc_key}").json()["data"]
-    return cmcs
-
-def fetch_cmc_pub():
-    cmcs = get_cmc()
-    cmc_full = []
-    for cm in cmcs:
-        cmc_full.append(cm["mainUser"])
-        for wal in cm["wallets"]:
-            cmc_full.append(wal)
-    return set(cmc_full) 

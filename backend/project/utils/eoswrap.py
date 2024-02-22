@@ -69,13 +69,14 @@ def build_memo(mode,n):
         memo = f"monKeyslots daily giveaway: You are a winner of the daily slots raffle on the {datetime.utcnow().date()}"
     return memo
 
-def transfer_assets(node,targets,mode):
+def transfer_assets(node,targets,mode, memo=None):
     try:
         key = get_local_key()
         ce = eospyabi.cleos.Cleos(url=node)
         payloads = []
         for n,target in enumerate(targets):
-            memo = build_memo(mode,n)
+            if memo is None:
+                memo = build_memo(mode,n)
             payload = {
                 "account": "atomicassets",
                 "name": "transfer",
@@ -105,7 +106,7 @@ def transfer_assets(node,targets,mode):
         print(e)
         return False,None
 
-def transfer_wrap(winners,mode):
+def transfer_wrap(winners,mode, memo=None):
     nodes_avail = pick_best_waxnode("api")
     winrs = grab_winners(winners)
     trying = True
@@ -113,7 +114,7 @@ def transfer_wrap(winners,mode):
     round=0
     while trying and round < retry:
         node = nodes_avail.pop(random.randint(0,len(nodes_avail)-1))
-        transfered,tx_id = transfer_assets(node,winrs,mode)
+        transfered,tx_id = transfer_assets(node,winrs,mode, memo)
         round +=1
         if transfered:
             trying = False
