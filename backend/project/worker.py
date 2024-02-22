@@ -1,5 +1,5 @@
 import os
-import time, random, config
+import time, random, config, ast
 from datetime import datetime, timedelta
 from celery import Celery
 from models import Drop
@@ -29,6 +29,7 @@ class SqlAlchemyTask(celery.Task):
 def setup_periodic_tasks(sender, **kwargs):
     sender.add_periodic_task(120.0, cmc_routine.s(), name='cmc routine')
     sender.add_periodic_task(3600.0, elect.s(), name='elect every hr')
+    sender.add_periodic_task(3600.0*24.0*7, redrop.s(), name='redrop stuck loot every week')
 
 @celery.task(base=SqlAlchemyTask)
 def elect() -> str:
@@ -47,9 +48,26 @@ def elect() -> str:
         commit_or_rollback(drop)
     else:
         return "Election for this hr already existst"
-    
-    start = (datetime.utcnow()-timedelta(hours=1)).isoformat()[:-3]
-    elected = draw(start)
+    verifying = True 
+    retry = 0
+    while verifying:
+        driver = Trains()
+        res = driver.logrun(limit=1).json()
+        timestamp = datetime.fromtimestamp(int(res['data'][0]['block_timestamp']))
+        if timestamp > cur_time:
+            verifying = False
+        else:
+            print("API behind, waiting and verifying again")
+            time.sleep(300)
+            retry += 1
+            if retry > 1:
+                print("API significantly behind.")
+                time.sleep(1140)
+            if retry > 200:
+                print("Giving up finding eligible winner for this drop")
+                return #Make sure celery workers remain available even if API is far behind.
+    start = (cur_time-timedelta(hours=1)).isoformat()[:-3]
+    elected = draw(start, cur_time)
     print(elected)
     update_elected(handle,elected)
     dropping = True
@@ -66,25 +84,60 @@ def elect() -> str:
             
     return f"{(time.time()-start1)} elected {len(elected)}, tx: {tx_id}"
 
-def draw(after):
+
+
+@celery.task(base=SqlAlchemyTask)
+def redrop() -> str:
+    start1=time.time()
+    current_day = datetime.utcnow().date()
+    stuck = db_session.query(Drop).filter(Drop.state!="DONE").all()
+    for drop in stuck:
+        if drop.state == "VERIFY": #No winners -> nothing to redrop
+            continue
+        elected = ast.literal_eval(drop.winner)
+        dropping = True
+        # Avoid potential conurrency issues
+        if drop.day == current_day:
+            continue
+        mode = drop.type
+        if mode == "roading":
+            memo = f"monKeytrains choo choo: Stuck drop compensation -  You are a winner of the hourly election @hour {datetime.utcnow().hour} on the {datetime.utcnow().date()}"
+        retry = 0
+        while dropping:
+            try:
+                tx_id = transfer_wrap(elected, mode, memo)
+                dropping = False
+            except Exception as e:
+                print(f"redrop failed with error: {e}, waiting 60 seconds and verify again")
+                time.sleep(60)
+                retry += 1
+                if retry == 3:
+                    break
+        if retry != 3:
+            suc = update_done(mode,tx_id)
+                
+    return f"{(time.time()-start1)} to redrop stuck drops"
+
+
+def draw(after, before = None):
 
     elig_cmcs = fetch_cmc_pub()
-    filtered_eligible = get_eligs_and_filter(elig_cmcs, after)
+    filtered_eligible = get_eligs_and_filter(elig_cmcs, after, before)
     elected = [filtered_eligible.pop(random.randint(0,len(filtered_eligible)-1)) for l in range(config.drops_per_hr)]
 
     return elected
 
-def fetch_runs(after):
+def fetch_runs(after, before=None):
     driver = Trains()
     elig_trains = []
     for station in config.mnky_stations:
-        res = driver.logrun(arrive_station=station,after=after).json()
+        res = driver.logrun(arrive_station=station,after=after, before=before).json()
         elig_trains += [train['railroader'] for train in res["data"]]
     return elig_trains
 
-def get_eligs_and_filter(eligs_cmc, after):
+def get_eligs_and_filter(eligs_cmc, after, before = None):
     
-    elig_trains = set(fetch_runs(after))
+    elig_trains = set(fetch_runs(after, before))
     cooldowned = cachetool.get_cache("targetCD")
     final_elig = []
     for train in elig_trains:
@@ -114,7 +167,6 @@ def cmc_routine() -> str:
     return f"werke: jo.cmc routine done,took: {(time.time()-start)} "
 
 def retrieve_db_status(eligs):
-    query = select([func.count()])
     start = time.perf_counter()
     with Session(engine) as session:  
         lastelec = session.query(Drop).where(Drop.type=="roading").order_by(Drop.issue_time.desc()).first()

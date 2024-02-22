@@ -12,7 +12,7 @@ import requests, ast, config
 from sqlalchemy import update
 
 engine = create_engine(
-    'postgresql://postgres:postgres@db:5432/foo', convert_unicode=True,
+    'postgresql://postgres:postgres@db:5432/foo',
     pool_recycle=1800, pool_size=12)
 db_session = scoped_session(sessionmaker(
     autocommit=False, autoflush=False, bind=engine))
@@ -91,25 +91,12 @@ def retrieve_drops(before:str=None,after:str=None,limit:int=100,sort:str='asc'):
 
         out=[
             {
-                "issue_time" : q["issue_time"],
-                "type" : q["type"],
-                "winner" : [n.strip() for n in ast.literal_eval(q["winner"])] if q["winner"] != "" else [],
-                "trx_id" : q["trx_id"],
-                "state" : q["state"]
+                "issue_time" : q.issue_time,
+                "type" : q.type,
+                "winner" : [n.strip() for n in ast.literal_eval(q.winner)] if q.winner != "" else [],
+                "trx_id" : q.trx_id,
+                "state" : q.state
             }
             for q in qry
         ]
         return out
-
-def get_cmc():
-    cmcs = requests.get(f"https://connect.cryptomonkeys.cc/accounts/api/v1/user_list/?code={config.cmc_key}").json()["data"]
-    return cmcs
-
-def fetch_cmc_pub():
-    cmcs = get_cmc()
-    cmc_full = []
-    for cm in cmcs:
-        cmc_full.append(cm["mainUser"])
-        for wal in cm["wallets"]:
-            cmc_full.append(wal)
-    return set(cmc_full) 

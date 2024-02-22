@@ -117,8 +117,13 @@ export default function PDash() {
     const cur = new Date();
     const cut = DateTime.fromJSDate(cur).minus(60*60*1000).toJSDate();
     const lig = new Date(Date.parse(runs.data[0].block_time+"Z"));
-    if (Date.parse(db.db.last_elec+"Z") < Date.parse(runs.data[0].block_time+"Z")){
-      eligible = <DarkCard icon={<CasinoIcon/>} label={"eligible for next raffle?"} value={"Yes!"} />;
+    for (var run_iter of runs.data){
+      if (run_iter.arrive_station in ["1099577690333", "1099577690651", "1099577690372", "1099577690370", "1099577690520", "1099577691129", "1099577690368"]){
+        if (Date.parse(db.db.last_elec+"Z") < Date.parse(runs.data[0].block_time+"Z")){
+          eligible = <DarkCard icon={<CasinoIcon/>} label={"eligible for next raffle?"} value={"Yes!"} />;
+        }
+        break;
+      } 
     }
   }
   let drops_clean : Drop[] = [];

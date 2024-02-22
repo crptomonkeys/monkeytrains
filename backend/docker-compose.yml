@@ -33,7 +33,7 @@ services:
   worker:
     build: ./project
     restart: 'unless-stopped'
-    command:  celery --app=worker.celery worker --loglevel=warning --logfile=logs/celery.log --concurrency=25
+    command:  celery --app=worker.celery worker --loglevel=warning --logfile=logs/celery.log --concurrency=65
     volumes:
       - ./project:/usr/src/app
     environment:
